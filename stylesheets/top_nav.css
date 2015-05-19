@@ -1,0 +1,40 @@
+
+/* top navigation stylesheet */
+
+.top_navigation {
+	text-align:right;
+	margin-left:2em;
+	margin-right:2em;
+	padding-right: 2em;
+        /*background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1);*/
+	border-radius: 4px;
+        /*border-bottom: 1px solid #CCC;
+        margin-bottom: 1em ;*/
+}
+
+.top_list {
+	display:block;
+	font-family:Open Sans, Helvetica, Arial;
+}
+
+.top_li {
+	display: inline-block;
+	padding:0.5em;
+	display: inline-block;
+	vertical-align: middle;
+	height: 1.2em;
+	list-style-type: none;
+	margin: 0px;
+	font-weight:bold;
+}
+
+.top_a:not(:hover) {
+    text-decoration: none;
+  color:#4F4F4F;
+}
+
+
+.top_a:hover {
+    text-decoration: underlined;
+  color:#00004F;
+}
