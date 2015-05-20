@@ -490,6 +490,14 @@ display:block;
 
  }
 
+.gallerySub {
+    padding-bottom:0.2em;
+    color:#666;
+    margin-bottom:0.4em;
+    border-bottom: 1px solid #F8F8F8;
+    margin-left:0px;
+}
+
 .galleryImg {
     display:block;
     width:300px;
