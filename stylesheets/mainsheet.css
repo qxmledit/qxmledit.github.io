@@ -14,7 +14,8 @@ margin-top:0.8em;
 margin:bottom:0.5em;
 padding-left:0.5em;
 text-shadow: 1px 1px #DDD;
-color:#006;
+/*color:#006;*/
+color:#024;
 /*font-family:Helvetica neue;*/
 font-weight:100;
 }
@@ -384,6 +385,8 @@ height: 3em;
   float:left;
   line-height: 1.5;
   color: #333;
+  /*font-weight:200;*/
+  /*font-family:Helvetica Neue;*/
 }
 
 .strongLi {
