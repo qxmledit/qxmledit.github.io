@@ -2,11 +2,22 @@
 /* main stylesheet */
 
 body {
-background-image: linear-gradient(to bottom, #FFFFFF, #F0F0F0);
+/*background-image: linear-gradient(to bottom, #FFFFFF, #F0F0F0);*/
+background-color: #FFF;
 background-repeat: repeat-x;
-font-family: Open Sans, Arial, Helvetica,sans-serif;
+font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue", "Open Sans", Arial, Helvetica,sans-serif;
+/*background: #FFF url('../images/logo_big.png') no-repeat 20px 1em;*/
 }
 
+h2 {
+margin-top:0.8em;
+margin:bottom:0.5em;
+padding-left:0.5em;
+text-shadow: 1px 1px #DDD;
+color:#006;
+/*font-family:Helvetica neue;*/
+font-weight:100;
+}
 
 .outerBox {
   max-width:1000px;
@@ -23,6 +34,9 @@ font-family: Open Sans, Arial, Helvetica,sans-serif;
 }
 
 .wholeLittle {
+    margin-bottom:0.3em;
+    padding-bottom:0.2em;
+    border-bottom: 1px solid #EEE;
     margin-left: auto;
     margin-right:auto;
     padding-left:2em;
@@ -289,12 +303,13 @@ height: 3em;
 
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
+
 .featContent {
-clear: both;
-padding: 0px ;
-margin: 4em 0px 0px 0px;
-color: #333;
-display:block;
+    clear: both;
+    padding: 0px ;
+    margin: 2em 0px 0px 0px;
+    color: #333;
+    display:block;
 }
 
 
@@ -364,23 +379,32 @@ display:block;
   word-wrap: break-word;
   z-index: 1;
   width: 30em;
-  font-size: 10pt;
+  font-size: 9pt;
   height:6em;
   float:left;
   line-height: 1.5;
+  color: #333;
 }
 
 .strongLi {
   font-size: 12pt;
   font-weight: 700;
+  text-shadow: 1px 1px #DDD;
 }
 
 .featMinUl {
     margin: 0 auto;
     padding-left:4em;
+    padding-top:1.5em;
 }
 
 .featMinLi {
+display: inline-block;
+width:40%;
+font-style: italic;
+font-size:-0.8em;
+line-height: 1.2em;
+color:#555;
 }
 
 
@@ -390,27 +414,42 @@ display:block;
   text-align: left;
   list-style-type: none;
   margin-left:2em;
+  margin-right:2em;
+  vertical-align:middle;
 }
 
 .tutorialLI {
     display:block;
-    padding-top: 1em;
+    padding-top: 0.8em;
 
     margin-bottom:0.5em;
     color: #333;
 clear:both;
     padding-left:2em;
     margin-right:1em;
-    height:190px;
+    margin-left:1em;
+    height:170px;
+    font-size:12pt;
+    vertical-align:middle;
 
   box-shadow: 0 0 10px rgba(0,0,0,.2);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
  }
 
+.tutorialLI strong{
+font-size:20pt;
+color:#666;
+}
+
+.tutorialLI p{
+font-size:16pt;
+color:#555;
+}
+
 .tutorialImg {
 
-    width:200px;
+    width:180px;
     height:auto;
     float:left;
     padding-right:2em;
@@ -422,7 +461,7 @@ clear:both;
 .gallery {
 clear: both;
 padding: 0px ;
-margin: 4em 0px 0px 0px;
+margin: 2em 0px 0px 0px;
 color: #333;
 display:block;
 }
@@ -436,7 +475,7 @@ display:block;
     float:left;
     display:inline-block;
     padding-top: 1em;
-    vertical-align: middle;
+    vertical-align: bottom;
     text-align:center;
 
     margin-bottom:0.5em;

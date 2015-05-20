@@ -12,15 +12,16 @@
 
 .bottom_navigation {
   /*position:relative;*/
-  
+  margin-top:2em;
   margin-left:auto;
   margin-right:auto;
-  background-color: #EFEFF0;
+  background-image: linear-gradient(to bottom, #F8F8F8, #EFEFF0);
   /*background-color: #E8E8E8;*/
   padding-top:1em;
   padding-bottom:1em;
   padding-left:1em;
   padding-right:1em;
+  line-height:1.2em;
 }
 
 /*
@@ -71,5 +72,6 @@ float: left;
   display: block;
   clear: both;
   border-top:1pt solid #555;
+  text-align:center;
 }
 
