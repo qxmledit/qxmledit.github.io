@@ -6,17 +6,16 @@
   list-style: outside none none;
   color:4F4F4F;
   font-size:8pt;
-  margin-left: -1em;
+  margin-left: -2em;
   margin-right: 2em;
+  line-height: 1.8;
 }
 
 .bottom_navigation {
-  /*position:relative;*/
   margin-top:2em;
   margin-left:auto;
   margin-right:auto;
   background-image: linear-gradient(to bottom, #F8F8F8, #EFEFF0);
-  /*background-color: #E8E8E8;*/
   padding-top:1em;
   padding-bottom:1em;
   padding-left:1em;
@@ -24,18 +23,7 @@
   line-height:1.2em;
 }
 
-/*
-.bottom_navigation::before {
-  content:"";
-  display:table;
-}
-.bottom_navigation::after {
-  content:"";
-  display:table;
-}
-*/
 .footerBoxParent {
-  /*width:800px;*/
   margin-top:1em;
   padding-top:1em;
   border-top:1pt solid #555;
@@ -45,26 +33,31 @@
 
 .footerBox {
 min-height: 2px;
-margin: 0px auto;
+margin: 1em auto;
+margin-left: 4em auto;
+margin-right: 4em auto;
 padding: 0px;
-
+padding-right:4em;
 float: left;
-/*position:relative;*/
 }
 
 
 .footerBox h1 {
   font-size:9pt;
   color:#3F3F3F;
+  border-bottom: 1px solid #DDD;
+  width:80%;
+  padding-bottom:0.3em;
+  padding-left:0.3em;
 }
 
 .footerBox a:visited, a:link, a:active {
     text-decoration: none;
-	color:4F4F4F;
+    color:#4F4F4F;
 }
   
 .footerBox  {
-	color:4F4F4F;
+    color:#4F4F4F;
 }
   
   
