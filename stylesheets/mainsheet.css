@@ -509,3 +509,28 @@ display:block;
 .galleryEnd {
     clear:both;
     }
+
+/*------------------------------------*/
+
+.tblDownload {
+ margin-top: 0.5em;
+ margin-bottom: 2em;
+}
+
+.cellDnl {
+ padding-left:2em;
+ padding-right: 4em;
+ }
+
+.rowOdd {
+ background-color: #EEE;
+ }
+
+.rowHdr {
+ background-color: #EEE;
+ }
+
+.infoPart {
+ padding-top: 1em;
+ pading-bottom: 2em;
+}
