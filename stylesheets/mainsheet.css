@@ -16,6 +16,10 @@ color:#024;
 font-weight:100;
 }
 
+.contentText p {
+ padding-left: 2em;
+}
+
 .outerBox {
   max-width:1000px;
   margin: 0px auto;
@@ -44,7 +48,7 @@ font-weight:100;
 }
 
 .main {
-	margin: 0px, auto;
+	margin: 0px auto;
 	text-align:center;
 	box-sizing: border-box;
         width: 90%;
@@ -81,7 +85,7 @@ font-weight:100;
   vertical-align:top;
   overflow:visible;
   background:none;
-  margin:0px, auto;
+  margin:0px auto;
   box-sizing: border-box;
   text-align:left;
   padding-top:0em;
@@ -109,7 +113,7 @@ font-weight:100;
   vertical-align:top;
   overflow:visible;
   background:none;
-  margin:0px, auto;
+  margin:0px auto;
   box-sizing: border-box;
   text-align:left;
   padding-top:0em;
@@ -166,7 +170,7 @@ font-weight:100;
 .mainScreenImage {
   width:250px;
   height:auto;
-  margin:0px, auto;
+  margin:0px auto;
   box-shadow: 12px 12px 29px #555;
 }
 
@@ -245,7 +249,7 @@ height: 3em;
 
 
 .little {
-    margin: 0px, auto;
+    margin: 0px auto;
     text-align:left;
     box-sizing: border-box;
     width: 90%;
@@ -260,7 +264,7 @@ height: 3em;
   overflow:visible;
   background:none;
   padding-left:30px;
-  margin:0px, auto;
+  margin:0px auto;
   box-sizing: border-box;
   text-align:left;
   padding-top:0em;
@@ -287,7 +291,7 @@ height: 3em;
   vertical-align:top;
   overflow:visible;
   background:none;
-  margin:0px, auto;
+  margin:0px auto;
   box-sizing: border-box;
   text-align:left;
   padding-top:0em;
@@ -520,17 +524,23 @@ display:block;
 .cellDnl {
  padding-left:2em;
  padding-right: 4em;
+ border-bottom: 1px solid #DDD;
  }
 
 .rowOdd {
- background-color: #EEE;
+ /*background-color: #EEE;*/
+ /*border-bottom: 1 px solid #DDD;*/
  }
 
 .rowHdr {
- background-color: #EEE;
+ background-color: #DDD;
  }
 
 .infoPart {
  padding-top: 1em;
  pading-bottom: 2em;
+}
+
+.infoLi {
+    line-height:1.5em;
 }

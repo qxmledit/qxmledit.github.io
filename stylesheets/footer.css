@@ -26,7 +26,7 @@
 .footerBoxParent {
   margin-top:1em;
   padding-top:1em;
-  border-top:1pt solid #555;
+  border-top:1pt solid #888;
   margin-left: auto;
   margin-right: auto;
 }
@@ -64,7 +64,7 @@ float: left;
 .footerCopy {
   display: block;
   clear: both;
-  border-top:1pt solid #555;
+  border-top:1pt solid #888;
   text-align:center;
 }
 
