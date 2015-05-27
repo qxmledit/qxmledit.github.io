@@ -5,6 +5,7 @@ body {
 background-color: #FFF;
 background-repeat: repeat-x;
 font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue", "Open Sans", Arial, Helvetica,sans-serif;
+margin:0px;
 }
 
 h2 {
@@ -524,8 +525,9 @@ display:block;
 
 .cellDnl {
  padding-left:2em;
- padding-right: 4em;
+ padding-right: 3.4em;
  border-bottom: 1px solid #DDD;
+ line-height:1.4em;
  }
 
 .rowOdd {
