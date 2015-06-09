@@ -247,7 +247,9 @@ height: 3em;
   font-style: italic;
 }
 
-
+.dimmed {
+    color:#AAA
+}
 
 .little {
     margin: 0px auto;
