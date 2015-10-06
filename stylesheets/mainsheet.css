@@ -523,18 +523,49 @@ display:block;
 .tblDownload {
  margin-top: 0.5em;
  margin-bottom: 2em;
+ border:0pt;
+ border-collapse: collapse;
 }
 
-.cellDnl {
+.cellDnlNoBorder {
  padding-left:2em;
  padding-right: 3.4em;
- border-bottom: 1px solid #DDD;
  line-height:1.4em;
+ border-left:0px;
+ border-top:0px;
+ border-right:0px;
+ margin: 0pt;
  }
+
+ .cellDnl {
+  padding-left:2em;
+  padding-right: 3.4em;
+  border-bottom: 1px solid #DDD;
+  line-height:1.4em;
+  border-left:0px;
+  border-top:0px;
+  border-right:0px;
+  margin: 0pt;
+  }
+
+.readit {
+color: #666;
+}
+
+.dimme {
+ color: #AAA;
+ text-align: center;
+ font-style: italic;
+ font-size: 0.9em;
+}
+
+.miniFont {
+ font-size: 0.8em;
+ height: 1.8em;
+}
 
 .rowOdd {
     background-color: #F8F8F8;
- /*border-bottom: 1 px solid #DDD;*/
  }
 
 .rowHdr {
