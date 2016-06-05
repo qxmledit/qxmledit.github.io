@@ -549,7 +549,7 @@ display:block;
   }
 
 .readit {
-color: #666;
+color: #444;
 }
 
 .dimme {
@@ -557,6 +557,14 @@ color: #666;
  text-align: center;
  font-style: italic;
  font-size: 0.9em;
+}
+
+.colorNote {
+ color: #888;
+}
+
+.fontRegular {
+ font-style: normal;
 }
 
 .miniFont {
