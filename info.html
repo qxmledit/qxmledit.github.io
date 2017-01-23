@@ -66,7 +66,7 @@
         <div>Downloads are hosted on sourceforge.net and listed here:<br/>
         <br/>
 
-<strong>Version 0.9.5 (current version)</strong>
+<strong>Version 0.9.6 (current version)</strong>
 <table class="tblDownload">
     <thead>
        <tr class="rowHdr"><th>Artifact</th><th>Link</th></tr>
@@ -74,39 +74,39 @@
     <tbody>
         <tr >
             <td class="cellDnl readit">Download folder</td>
-            <td class="cellDnl"> <a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.5"> Link to Download folder </a></td>
+            <td class="cellDnl"> <a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.6"> Link to Download folder </a></td>
         </tr>
 
         <tr class="rowOdd">
-            <td class="cellDnlNoBorder readit">Windows installer </td>
-            <td class="cellDnlNoBorder"><a href="http://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.5/QXmlEditInstaller-0.9.5.exe/download"> QXmlEditInstaller-0.9.5.exe</a></td>
+            <td class="cellDnlNoBorder readit">Windows installer Qt 5.3.1</td>
+            <td class="cellDnlNoBorder"><a href="http://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.6/QXmlEditInstaller-0.9.6.exe/download"> QXmlEditInstaller-0.9.6.exe</a></td>
         </tr>
         <tr class="rowOdd colorNote">
             <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont colorNote fontRegular">eb7d27a79aad37e269224eb441061146c4204fd6ad90d7a3b0b772143476ae70</td>
+            <td class="cellDnl miniFont colorNote fontRegular">5cf16b5d6774dba9d5ca2f5ceb8125c429192417e228f7757c285397cc31edfa</td>
         </tr>
 
         <tr >
             <td class="cellDnlNoBorder readit">Source code package</td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.5/qxmledit-0.9.5-src.tgz/download"> qxmledit-0.9.5-src.tgz</a></td>
+            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.6/qxmledit-0.9.6-src.tgz/download"> qxmledit-0.9.6-src.tgz</a></td>
         </tr>
         <tr class="colorNote">
             <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">ac6341f1ceb004e64e070c6e99b5c3be3cfdf7d81a5556e79d99beb2f9eab43f</td>
+            <td class="cellDnl miniFont">46928b059d9c00c96d98a5ab0bb6249abdd9225b2bbf280bbb8e0f54a894e964</td>
         </tr>
 
         <tr class="rowOdd">
             <td class="cellDnlNoBorder readit">Mac OS 10.9 installer </td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.5/QXmlEdit-0.9.5.dmg/download"> QXmlEdit-0.9.5.dmg</td>
+            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.6/QXmlEdit-0.9.6.dmg/download"> QXmlEdit-0.9.6.dmg</td>
         </tr>
         <tr class="rowOdd colorNote">
             <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">68d177253cc85c15687481da18c08def10afc00df364d6d9f7631aa27d7af30e</td>
+            <td class="cellDnl miniFont">a1f78f87e9a905f8a826efeb2fe4a40877462ab734b0bc5154ba348821c7b8e8</td>
         </tr>
 
         <tr >
             <td class="cellDnl readit">Source code tag </td>
-            <td class="cellDnl"><a href="https://github.com/lbellonda/qxmledit/releases/tag/0.9.5"> Link to tag</a></td>
+            <td class="cellDnl"><a href="https://github.com/lbellonda/qxmledit/releases/tag/0.9.6"> Link to tag</a></td>
         </tr>
     </tbody>
 </table>
@@ -114,14 +114,30 @@
 <div class="notes">
 Release notes:
 <ul>
-    <li>Fixed some memory leaks.</li>
-    <li>Manipulation of namespaces: set, remove, replace, normalize.</li>
-    <li>Manipulation of prefixes: set, remove, replace.</li>
-    <li>Fix #37 (https://github.com/lbellonda/qxmledit/issues/37).</li>
-    <li>Autocompletion editing attributes (activated with ctrl+space).</li>
-    <li>Added error message in splitting files operation.</li>
-    <li>New options for splitting files: extract and group, even in CSV format.</li>
-    <li>Fixed a bug on schema choose dialog.</li>
+    <li>New dialog to advise the user to use the streaming method for saving.</li>
+    <li>New option to remove the decoration from elements display.</li>
+    <li>Fixed a bug in the configuration dialog setting display.</li>
+    <li>Sorted alphabetically the attributes in "Copy Attributes" dialog.</li>
+    <li>When copying attributes, the textual representation is copied to the clipboard.</li>
+    <li>Added a menu for copying only the current element, without children.</li>
+    <li>Repositioned the selection after an element deletion.</li>
+    <li>Changed default colors.</li>
+    <li>Fixed UI issues in attributes display.</li>
+    <li>Fix #38 (https://github.com/lbellonda/qxmledit/issues/38).</li>
+    <li>SCXML edit mode.</li>
+    <li>SCXML validation.</li>
+    <li>New shortcuts for insert and remove of elements.</li>
+    <li>Engine to insert specialized elements depending on the current element.</li>
+    <li>SCXML edit dialogs.</li>
+    <li>New template for SCXML.</li>
+    <li>Infrastructure to edit specialized elements.</li>
+    <li>Handling of XInclude and fallback elements.</li>
+    <li>Inserted a shortcut to append siblings (shift Ins).</li>
+    <li>Fixed an insert problem with read only enabled.</li>
+    <li>New options to copy file path in the load error handling dialog.</li>
+    <li>Removed the option to load files using DOM.</li>
+    <li>New warning panel if loading incomplete data.</li>
+    <li>Details on error loading data, giving the option to load the incomplete file.</li>
 </ul>
 </div>
 <br/>
@@ -130,383 +146,6 @@ Release notes:
 <a href="previous.html">Link to previous versions</a></td>
 <br/>
 <br/>
-<!--
-<span class="dimmed">Version 0.9.4</span>
-<table class="tblDownload dimmed">
-    <thead>
-       <tr class="rowHdr"><th>Artifact</th><th>Link</th></tr>
-    </thead>
-    <tbody>
-        <tr >
-            <td class="cellDnl readit">Download folder</td>
-            <td class="cellDnl"> <a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.4"> Link to Download folder </a></td>
-        </tr>
-
-        <tr class="rowOdd">
-            <td class="cellDnlNoBorder readit">Windows installer </td>
-            <td class="cellDnlNoBorder"><a href="http://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.4/QXmlEditInstaller-0.9.4.exe/download"> QXmlEditInstaller-0.9.4.exe</a></td>
-        </tr>
-        <tr class="rowOdd dimme colorNote fontRegular">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont colorNote fontRegular">37256f1a1859ce9c2b0f9d8e20629ea6bf3b922d9b73b7d29d5c20acf8ce9ef1</td>
-        </tr>
-
-        <tr >
-            <td class="cellDnlNoBorder readit">Source code package</td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.4/qxmledit-0.9.4-src.tgz/download"> qxmledit-0.9.4-src.tgz</a></td>
-        </tr>
-        <tr class="dimme colorNote fontRegular">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">ef78d66c6214a1af2d95ea98c441cad5be91e3064faca4bf9edef952ed6d0133</td>
-        </tr>
-
-        <tr class="rowOdd">
-            <td class="cellDnlNoBorder readit">Mac OS 10.9 installer </td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.4/QXmlEdit-0.9.4.dmg/download"> QXmlEdit-0.9.4.dmg</td>
-        </tr>
-        <tr class="rowOdd dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">f4dc08ad652fe262076e9a92a1f0e317bdb5ddb7e493e95a673e4a93149d04ea</td>
-        </tr>
-
-        <tr >
-            <td class="cellDnl readit">Source code tag </td>
-            <td class="cellDnl"><a href="https://github.com/lbellonda/qxmledit/releases/tag/0.9.4"> Link to tag</a></td>
-        </tr>
-    </tbody>
-</table>
-
-<div class="notes">
-Release notes:
-<ul>
-    <li>Option to override stream saving to handle 8 bit non ASCII like encodings (EBCDIC) when Qt has problems.</li>
-    <li>Fixed an issue with contribution module and isnan definition.</li>
-    <li>Fixed issue #36 Compilation error in openSUSE c++11 compatibility.</li>
-    <li>Fixed a problem with file encoding with multibyte characters and attribute alignment.</li>
-    <li>New editor for XSD facets.</li>
-    <li>Fixed open file, file filter in MacOSX.</li>
-    <li>Changed the formatting of the data in binary viewer.</li>
-    <li>New dialog box to choose the detail level of the editor at the startup and recalled via menu.</li>
-    <li>Created the "Task" menu.</li>
-    <li>Enabled the use of QWTPlot3d library and OpenGL.</li>
-    <li>Enforced limits in the data extraction panel.</li>
-    <li>Enriched the export statistics of view data panel.</li>
-    <li>Attributes sorted case insensitive.</li>
-    <li>Asynchronous loading of data in Data Visualization dialog.</li>
-</ul>
-</div>
-<br/>
-<br/>
-<span class="dimmed">Version 0.9.3.1</span>
-<table class="tblDownload  dimmed">
-    <thead>
-       <tr class="rowHdr"><th>Artifact</th><th>Link</th></tr>
-    </thead>
-    <tbody>
-        <tr >
-            <td class="cellDnl readit">Source code tag </td>
-            <td class="cellDnl"><a href="https://github.com/lbellonda/qxmledit/releases/tag/0.9.3.1"> Link to tag</a></td>
-        </tr>
-    </tbody>
-</table>
-
-<div class="notes">
-Release notes:
-<ul>
-    <li>Fix for compilation errors on OS/2 due to precompiled headers.</li>
-</ul>
-</div>
-<br/>
-<br/>
-<span class="dimmed">Version 0.9.3</span>
-<table class="tblDownload dimmed">
-    <thead>
-       <tr class="rowHdr"><th>Artifact</th><th>Link</th></tr>
-    </thead>
-    <tbody>
-        <tr >
-            <td class="cellDnl readit">Download folder</td>
-            <td class="cellDnl"> <a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.3"> Link to Download folder </a></td>
-        </tr>
-
-        <tr class="rowOdd">
-            <td class="cellDnlNoBorder readit">Windows installer </td>
-            <td class="cellDnlNoBorder"><a href="http://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.3/QXmlEditInstaller-0.9.3.exe/download"> QXmlEditInstaller-0.9.3.exe</a></td>
-        </tr>
-        <tr class="rowOdd dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">35d6142fe64cfa0c9c7a16a570a76446c30a683c25735c77325de4ac729c69b1</td>
-        </tr>
-        <tr >
-            <td class="cellDnlNoBorder readit">Mac OS 10.9 installer </td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.3/QXmlEdit-0.9.3.dmg/download"> QXmlEdit-0.9.3.dmg</td>
-        </tr>
-        <tr class="dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">5be992ffa03ff41fe158eb3dafadfc833d071004f46d327f9b81fa9935d89526</td>
-        </tr>
-        <tr class="rowOdd">
-            <td class="cellDnlNoBorder readit">Source code package</td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.3/qxmledit-0.9.3-src.tgz/download"> qxmledit-0.9.3-src.tgz</a></td>
-        </tr>
-        <tr class="rowOdd dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">f4f1e305712ca033d8fe9cef8ddce6a94fd4deffd9e723c1734786e18a49fc50</td>
-        </tr>
-
-        <tr >
-            <td class="cellDnl readit">Source code tag </td>
-            <td class="cellDnl"><a href="https://github.com/lbellonda/qxmledit/releases/tag/0.9.3"> Link to tag</a></td>
-        </tr>
-    </tbody>
-</table>
-
-<div class="notes">
-Release notes:
-<ul>
-    <li>Added an option to show or hide the element icon in the editor.</li>
-    <li>Added man page.</li>
-    <li>Added a command line option for anonymization.</li>
-    <li>Added a delete siblings feature.</li>
-    <li>Fixed small memory leaks.</li>
-    <li>Fixed a bug in the save search terms that was writing more than one time the same item.</li>
-    <li>Implemented the sorting of attributes in the current element or in all the file.</li>
-    <li>New option to limit the attributes line length to a given column.</li>
-    <li>Option to show the attributes alphabetically sorted.</li>
-    <li>Fixed a bug on the single instance application option saving.</li>
-    <li>Export the selected element to file.</li>
-    <li>New menu to show the containing folder in system browser.</li>
-    <li>Fixed a bug on XSLT element insert.</li>
-    <li>New option for set attribute maximum offset from element tag when saving.</li>
-    <li>New tool button for indentation settings.</li>
-</ul>
-</div>
-<br/>
-<br/>
-<span class="dimmed">Version 0.9.2</span>
-<table class="tblDownload dimmed">
-    <thead>
-       <tr class="rowHdr"><th>Artifact</th><th>Link</th></tr>
-    </thead>
-    <tbody>
-        <tr >
-            <td class="cellDnl readit">Download folder</td>
-            <td class="cellDnl"> <a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.2"> Link to Download folder </a></td>
-        </tr>
-
-        <tr class="rowOdd">
-            <td class="cellDnlNoBorder readit">Windows installer </td>
-            <td class="cellDnlNoBorder"><a href="http://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.2/QXmlEditInstaller-0.9.2.exe/download"> QXmlEditInstaller-0.9.2.exe</a></td>
-        </tr>
-        <tr class="rowOdd dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">cb4e485b861bea402ba41961dc7f8d8e628993951efee01e21b56e8d1d210954</td>
-        </tr>
-        <tr >
-            <td class="cellDnlNoBorder readit">Mac OS 10.9 installer </td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.2/QXmlEdit-0.9.2.dmg/download"> QXmlEdit-0.9.2.dmg</td>
-        </tr>
-        <tr class="dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">5bcc7845f7a8a1ac3c588f7eee04ab4182a81ebd6d8af16422f6ec52113d77cf</td>
-        </tr>
-        <tr class="rowOdd">
-            <td class="cellDnlNoBorder readit">Source code package</td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.2/qxmledit-0.9.2-src.tgz/download"> qxmledit-0.9.2-src.tgz</a></td>
-        </tr>
-        <tr class="rowOdd dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">14b8b47f00cf8ea031a0066c928cf8888a3b0d885627ed7f45c6d455be8bd531</td>
-        </tr>
-
-        <tr >
-            <td class="cellDnl readit">Source code tag </td>
-            <td class="cellDnl"><a href="https://github.com/lbellonda/qxmledit/releases/tag/0.9.2"> Link to tag</a></td>
-        </tr>
-    </tbody>
-</table>
-
-<div class="notes">
-Release notes:
-<ul>
-    <li>After a search operation the menu status is evaluated.</li>
-    <li>Fixed a regression on "New".</li>
-    <li>The search panel on session data is now opening on request.</li>
-    <li>New close window menu item.</li>
-    <li>Project option to disable precompiled headers.</li>
-    <li>New flags for filling data.</li>
-    <li>Clone elements tool.</li>
-</ul>
-</div>
-
-<br/>
-<br/>
-
-
-<span class="dimmed">Version 0.9.1</span>
-<table class="tblDownload dimmed">
-    <thead>
-       <tr class="rowHdr"><th>Artifact</th><th>Link</th></tr>
-    </thead>
-    <tbody>
-        <tr >
-            <td class="cellDnl readit">Download folder</td>
-            <td class="cellDnl"> <a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.1"> Link to Download folder </a></td>
-        </tr>
-
-        <tr class="rowOdd">
-            <td class="cellDnlNoBorder readit">Windows installer </td>
-            <td class="cellDnlNoBorder"><a href="http://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.1/QXmlEditInstaller-0.9.1.exe/download"> QXmlEditInstaller-0.9.1.exe</a></td>
-        </tr>
-        <tr class="rowOdd dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">d825e17ba430299fcddeb021d6c368749b54693eac738f9f96c9f6d8df4af6d9</td>
-        </tr>
-
-        <tr >
-            <td class="cellDnlNoBorder readit">Mac OS 10.9 installer </td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.1/QXmlEdit-0.9.1.dmg/download"> QXmlEdit-0.9.1.dmg</td>
-        </tr>
-        <tr class="dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">da696be308b8cbf6b4f29c219b260305a1370061125ec1b44ccc09750c9c0bea</td>
-        </tr>
-
-        <tr class="rowOdd">
-            <td class="cellDnlNoBorder readit">Source code package</td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.1/qxmledit-0.9.1-src.tgz/download"> qxmledit-0.9.1-src.tgz</a></td>
-        </tr>
-        <tr class="rowOdd dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">d4dad375f4f249f76833e2049717462e683bf1952416ca784cb7f5540114be71</td>
-        </tr>
-
-        <tr >
-            <td class="cellDnl readit">Source code tag </td>
-            <td class="cellDnl"><a href="https://github.com/lbellonda/qxmledit/releases/tag/0.9.1"> Link to tag</a></td>
-        </tr>
-    </tbody>
-</table>
-
-<div class="notes">
-Release notes:
-<ul>
-    <li>New tool: fill serie to fill a set of elements with consecutive values.</li>
-    <li>Variants of base 64 handled in the base 64 dialog.</li>
-    <li>Fixed some behavior on file reopen.</li>
-    <li>Enabled the application single instance via a configuration key.</li>
-    <li>Inserted a menu to raise all the windows.</li>
-    <li>Parified the behavior of the first windows to the other ones.</li>
-    <li>Fixed a bug that did not show an error message when opening an invalid XML file.</li>
-    <li>The application is now single instance when invoked from command line.</li>
-    <li>New option to show text in tooltip as a base 64 coded image.</li>
-</ul>
-</div>
-
-<span class="dimmed">Version 0.9.0</span>
-<table class="tblDownload dimmed">
-    <thead>
-       <tr class="rowHdr"><th>Artifact</th><th>Link</th></tr>
-    </thead>
-    <tbody>
-        <tr >
-            <td class="cellDnl readit">Download folder</td>
-            <td class="cellDnl"> <a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.0"> Link to Download folder </a></td>
-        </tr>
-
-        <tr class="rowOdd">
-            <td class="cellDnlNoBorder readit">Windows installer </td>
-            <td class="cellDnlNoBorder"><a href="http://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.0/QXmlEditInstaller-0.9.0.exe/download"> QXmlEditInstaller-0.9.0.exe</a></td>
-        </tr>
-        <tr class="rowOdd dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">98299c27470b9a06bcb40701561caf1af2fbce70c6b121946b032fe255c1aab2</td>
-        </tr>
-
-        <tr >
-            <td class="cellDnlNoBorder readit">Mac OS 10.9 installer </td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.0/QXmlEdit-0.9.0.dmg/download"> QXmlEdit-0.9.0.dmg</td>
-        </tr>
-        <tr class="dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">ff08d6c1390f446e00b75bdd11d972eb687c5a5382887604d124742484a6cd35</td>
-        </tr>
-
-        <tr class="rowOdd">
-            <td class="cellDnlNoBorder readit">Source code package</td>
-            <td class="cellDnlNoBorder"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.9.0/qxmledit-0.9.0-src.tgz/download"> qxmledit-0.9.0-src.tgz</a></td>
-        </tr>
-        <tr class="rowOdd dimme">
-            <td class="cellDnl">SHA256 checksum</td>
-            <td class="cellDnl miniFont">f4eb3baaca106ca3ea6cc851f25e4ea4e15198169aeb8a50647480b493350188</td>
-        </tr>
-
-        <tr >
-            <td class="cellDnl readit">Source code tag </td>
-            <td class="cellDnl"><a href="https://github.com/lbellonda/qxmledit/releases/tag/0.9.0"> Link to tag</a></td>
-        </tr>
-    </tbody>
-</table>
-
-<div class="notes">
-Release notes:
-<ul>
-    <li>Enabled source code compatibility with Qt 4.7.3.</li>
-    <li>Disabled edit of text elements when clicking on CDATA checkbox in edit element panel.</li>
-    <li>Added a new menu item for closing the siblings of the selection.</li>
-    <li>DTD declaration editable in the "Info" dialog.</li>
-    <li>Handled the DTD declaration on load and save.</li>
-    <li>Added an option to preserve attributes order when saving.</li>
-    <li>Added an option to open a file using the current editor or a new window reversing the settings.</li>
-    <li>Open a new file by default happens in a new editor windows. Options to revert this behaviour.</li>
-    <li>Added a library of predefined namespaces.</li>
-    <li>Accepted drop files on Base64 dialog.</li>
-    <li>Matched tag names and structure to GitHub conventions.</li>
-    <li>Namespace management in edit element.</li>
-    <li>User defined namespace management and storage in embedded database.</li>
-    <li>Moved the I/O to StAX using QXmlStream.</li>
-</ul>
-</div>
-<span class="dimmed">Version 0.8.17</span>
-<table class="tblDownload dimmed">
-    <thead>
-       <tr class="rowHdr"><th>Artifact</th><th>Link</th><th>MD5 checksum</th></tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td class="cellDnl">Download folder</td>
-            <td class="cellDnl"> <a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.8.17"> Link to Download folder </a></td>
-            <td class="cellDnl">none</td>
-        </tr>
-        <tr class="rowOdd">
-            <td class="cellDnl">Source code package</td>
-            <td class="cellDnl"><a href="https://sourceforge.net/projects/qxmledit/files/QXmlEdit-0.8.17/qxmledit-0.8.17-src.tgz/download"> qxmledit-0.8.17-src.tgz</a></td>
-            <td class="cellDnl">42c848d0a8839d863f9e9eae2fb2873e</td>
-        </tr>
-        <tr>
-            <td class="cellDnl">Source code tag </td>
-            <td class="cellDnl"><a href="https://github.com/lbellonda/qxmledit/releases/tag/qxmledit-0.8.17"> Link to tag</a></td>
-            <td class="cellDnl">none</td>
-        </tr>
-    </tbody>
-</table>
-
-
-<span class="dimmed">Version 0.8.16</span>
-<table class="tblDownload dimmed">
-    <thead>
-       <tr class="rowHdr"><th>Artifact</th><th>Link</th><th>MD5 checksum</th></tr>
-    </thead>
-    <tbody>
-        <tr class="rowOdd">
-            <td class="cellDnl">Source code tag </td>
-            <td class="cellDnl"><a href="https://github.com/lbellonda/qxmledit/releases/tag/qxmledit-0.8.16"> Link to tag</a></td>
-            <td class="cellDnl">none</td>
-        </tr>
-    </tbody>
-</table>
-
--->
 </div>
 
 </div>
