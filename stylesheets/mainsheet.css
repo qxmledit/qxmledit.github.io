@@ -106,7 +106,7 @@ font-weight:100;
   padding-bottom:0em;
   margin-top:0px;
   margin-bottom:0px;
-  text-shadow: 2px 2px #DDD;
+  text-shadow: 2px 1px #DDD;
 
 }
 
@@ -122,9 +122,11 @@ font-weight:100;
   padding-bottom:0em;
   background-color:transparent;
   /*padding-left:120px;*/
-  color: #CCC;
-  font-size:26px;
+  color: #BBB;
+  font-size:30px;
   font-style:italic;
+  font-weight:lighter;
+  font-family:Helvetica Neue, Helvetica;
 }
 
 .mainScreenContainer1 {
