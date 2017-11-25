@@ -10,11 +10,19 @@ margin:0px;
 
 h2 {
 margin-top:0.8em;
-margin:bottom:0.5em;
+margin-bottom:0.5em;
 padding-left:0.5em;
 /*text-shadow: 1px 1px #DDD;*/
 color:#024;
 font-weight:100;
+}
+
+a:not(:hover) {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .contentText p {
@@ -212,25 +220,27 @@ box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2) inset, 0px 2px 0px rgba(255, 255, 255
 }
 
 .downloadLink:not(:hover) {
+    text-decoration: none;
+  color:#FFFFFF;
+}
 
-  color:#FFFFFF
+.downloadLink:hover {
+    text-decoration: underline;
+  color:#FFFFFF;
 }
 
 .downloadLink.span {
-text-align:center;
+ text-align:center;
 }
 
 .downloadLink:link {
-color:#FFFFFF
-text-decoration:none;
-
+color:#FFFFFF;
 }
 
 .hidden {
-display:hidden;
+display:none;
 height: 3em;
 }
-
 
 
 .content {
@@ -410,7 +420,7 @@ height: 3em;
 display: inline-block;
 width:40%;
 font-style: italic;
-font-size:-0.8em;
+font-size:0.8em;
 line-height: 1.2em;
 color:#555;
 }
@@ -584,7 +594,7 @@ color: #444;
 
 .infoPart {
  padding-top: 1em;
- pading-bottom: 2em;
+ padding-bottom: 2em;
 }
 
 .infoLi {

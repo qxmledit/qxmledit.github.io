@@ -4,7 +4,7 @@
 
 .footerLi {
   list-style: outside none none;
-  color:4F4F4F;
+  color:#4F4F4F;
   font-size:8pt;
   margin-left: -2em;
   margin-right: 2em;
@@ -34,8 +34,8 @@
 .footerBox {
 min-height: 2px;
 margin: 1em auto;
-margin-left: 4em auto;
-margin-right: 4em auto;
+margin-left: 4em;
+margin-right: 4em;
 padding: 0px;
 padding-right:4em;
 float: left;
@@ -68,3 +68,11 @@ float: left;
   text-align:center;
 }
 
+
+a:not(:hover) {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
