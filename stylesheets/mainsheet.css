@@ -1,6 +1,30 @@
 
 /* main stylesheet */
 
+@media (min-width: 48em) {
+  html {
+    font-size: 16px;
+  }
+  .footerBox h1 {
+    font-size:9pt;
+  }
+  .footerLi {
+    font-size:8pt;
+  }
+}
+
+@media (min-width: 58em) {
+  html {
+    font-size: 20px;
+  }
+  .footerBox h1 {
+    font-size:12pt;
+  }
+  .footerLi {
+    font-size:10pt;
+  }
+}
+
 body {
 background-color: #FFF;
 background-repeat: repeat-x;
