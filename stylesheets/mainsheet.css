@@ -276,6 +276,10 @@ height: 3em;
   color: #4F4F4F;
 }
 
+.contentLeft {
+  text-align: left;
+}
+
 .mainLi {
   list-style-type: none;
   font-weight:normal;
