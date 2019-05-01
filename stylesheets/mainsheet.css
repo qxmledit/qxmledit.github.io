@@ -660,22 +660,23 @@ padding-bottom:2em;
 padding-right:1em;
 padding-left:1em;
 border-right:1px solid #444;
+font-style:italic;
+color:#666;
+margin-bottom:3em;
+font-weight:100;
 }
 
 .newsMonth {
-color:#888;
 font-size:2em;
 text-align: center;
 }
 
 .newsDay{
-color:#888;
 font-size:2em;
 text-align: center;
 }
 
 .newsYear {
-color:#888;
 font-size:2em;
 text-align: center;
 }
